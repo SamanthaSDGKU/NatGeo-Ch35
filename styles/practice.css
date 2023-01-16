@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    border:1px solid black;
+}
+td,th{
+    border: 1px solid black;
+    width:100px;
+    text-align: center;
+}
+.red-flag{
+    color:rgb(242, 83, 83);
+}
+tr:nth-child(even){
+    background-color: #dedede;
+}
